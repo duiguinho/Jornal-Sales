@@ -1,0 +1,107 @@
+:root{
+    --titulos: #AA2011;
+    --titulo-hover: #8a1818;
+    --caixa-amarela: #FFE3A1;
+    --titulo-amarelo: #946119;
+    --card: #F5F5F5;
+}
+
+body{
+    background-color:#F2E7DC;
+}
+
+
+/* NAVBAR linda de mais mas sem responsividade */
+
+.navbar {
+    background-image: url('../image/navbar.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 20px 40px;
+    height: 90px;
+    display: flex;
+    align-items:flex-end;
+    position: relative;
+    z-index: 1000;
+}
+
+
+/* sales gomes logo */
+
+.logo img {
+  height: 340px;
+  padding-top: 15px;
+  padding-left: 30px;
+  position: absolute;
+  top: -120px;
+  left: 0;
+}
+
+
+/* menu */
+
+.navbar-nav {
+    gap: 40px;
+}
+
+.nav-link {
+    color: var(--titulos) !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+/* botão vermelho +*/
+
+.botao {
+    background: var(--titulos);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.botao:hover{
+    background:var(--titulo-hover);
+}
+
+
+/* parte que era pra estar responsiva mas não deu muito certo */
+
+.navbar-collapse{
+    background-image: url('../image/navbar.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+
+/* outra parte que era para estar resposivel mas esta 50% funcionando  */
+
+@media (max-width: 991px){
+
+.navbar-collapse{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-nav{
+    align-items:center;
+    text-align:center;
+}
+
+.botao{
+    margin-top: 15px;
+}
+
+}
