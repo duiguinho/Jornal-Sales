@@ -184,7 +184,7 @@ p{
     height: 450px;
     background-color:#F5F5F5;
     border-radius: 20px;
-    box-shadow: 1px 10px 12px black;
+    box-shadow: 1px 10px 12px rgb(0, 0, 0, 0.400);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -198,7 +198,7 @@ p{
     background-color: #F5F5F5;
     border-radius: 20px;
     margin-left: 125px;
-    box-shadow: 1px 10px 12px black;
+    box-shadow: 1px 10px 12px rgba(0, 0, 0, 0.400);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,12 +221,34 @@ p{
     align-items: center;
 }
 
+/* aqui é auela tabela com os avisos */
+
 .avisos{
     width: 75%;
     height: 450px;
     background-color: #FFE3A1;
     margin-top: 20px;
     border-radius: 20px;
+}
+
+.footerPages{
+    background-image: url('../image/navbar.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+}
+
+.instagramLinkFooter{
+    width: 60px;
+    height: 40px;
 }
 
 
