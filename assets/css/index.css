@@ -1,3 +1,6 @@
+body{
+    background-color:rgb(255, 251, 234);
+}
 :root{
     --titulos: #AA2011;
     --titulo-hover: #8a1818;
@@ -6,9 +9,6 @@
     --card: #F5F5F5;
 }
 
-body{
-    background-color:#F2E7DC;
-}
 
 
 /* NAVBAR linda de mais mas sem responsividade */
@@ -25,6 +25,7 @@ body{
     align-items:flex-end;
     position: relative;
     z-index: 1000;
+    box-shadow: 1px 1px 12px black;
 }
 
 
@@ -81,6 +82,151 @@ body{
     background-size: cover;
     background-position: center;
     padding: 20px;
+}
+
+.imgTitle{
+    width: 50px;
+}
+
+.imgPostCapa{
+    width: 90%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+.h1Welcome{
+    font-family: "IM FELL French Canon";
+    font-size: 36px;
+    color: #946119;
+}
+h4{
+    margin-top: 10px;
+    font-family: "IM FELL French Canon";
+}
+p{
+    font-family: "IM FELL French Canon";
+}
+
+
+/* div que representa toda a tela */
+
+.fullscream{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* div que representa aquela parte ali com a caixa amarela,  tipo a cabeça */
+
+.header{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* a caixa amarela com a mensagem de bem-vindo */
+
+.boxWelcome{
+    width: 95%;
+    height: 200px;
+    background-color: #FFE3A1;
+    border-radius: 20px;
+    box-shadow: 1px 1px 12px black;
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* essa div é serve só pra deixar a div.lef e div.right uma do lado da outra */
+
+.bodyElements{
+    width: 100%;
+    display: flex;
+}
+
+
+/* essa div é o lado esquerdo da tela */
+
+.left{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    margin-top: 60px;
+}
+
+/* essa div serve para colocar a imagem e o titulo em uma linha */
+
+.titleRow{
+    display: flex;
+    flex-direction: row;
+}
+
+/* essa div serve para deixar os posts na mesma linha */
+
+.postsRow{
+    display: flex;
+    margin-top: 20px;
+}
+
+/* essa div é o primeiro post */
+
+.post1{
+    width: 400px;
+    height: 450px;
+    background-color:#F5F5F5;
+    border-radius: 20px;
+    box-shadow: 1px 10px 12px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* essa div é o segundo post */
+
+.post2{
+    width: 400px;
+    height: 450px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    margin-left: 125px;
+    box-shadow: 1px 10px 12px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* essa div é a caixa que tem o conteudo da notícia */
+
+.textBoxPost{
+    width: 90%;
+    margin-top: 10px;
+}
+
+/* essa div representa o lado direito da tela */
+
+.right{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.avisos{
+    width: 75%;
+    height: 450px;
+    background-color: #FFE3A1;
+    margin-top: 20px;
+    border-radius: 20px;
 }
 
 
