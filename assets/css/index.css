@@ -87,13 +87,22 @@ body{
 .imgTitle{
     width: 50px;
 }
+#appleImg{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
 
 .imgPostCapa{
     width: 90%;
-    height: 200px;
-    border: 1px solid black;
+    height: 240px;
     border-radius: 20px;
+    background-color: #dddddd;
+}
 
+.imgTabelaRight{
+    width: 30px;
+    height: 30px;
 }
 
 .h1Welcome{
@@ -101,12 +110,40 @@ body{
     font-size: 36px;
     color: #946119;
 }
-h4{
+.avisosTitle{
+    font-family: "IM FELL French Canon";
+    font-size: 36px;
+    color: #946119;
+}
+.cardapioTitle{
+    font-family: "IM FELL French Canon";
+    font-size: 36px;
+    color: #946119;
+    margin-top: 40px;
+}
+.titlePost{
     margin-top: 10px;
     font-family: "IM FELL French Canon";
+    color: #8a1818;
 }
 p{
     font-family: "IM FELL French Canon";
+    font-size: 22px;
+}
+.pCardapioFood{
+    font-family: "IM FELL French Canon";
+    font-size: 20px;
+    margin-top: -15px;
+    margin-left: 25%;
+}
+h3{
+    font-family: "IM FELL French Canon";
+    font-size: 25px;
+    margin-left: 18%;    
+}
+#cardapioDataTitle{
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 
@@ -175,13 +212,14 @@ p{
 .postsRow{
     display: flex;
     margin-top: 20px;
+    
 }
 
 /* essa div é o primeiro post */
 
 .post1{
     width: 400px;
-    height: 450px;
+    height: 520px;
     background-color:#F5F5F5;
     border-radius: 20px;
     box-shadow: 1px 10px 12px rgb(0, 0, 0, 0.400);
@@ -194,10 +232,10 @@ p{
 
 .post2{
     width: 400px;
-    height: 450px;
+    height: 520px;
     background-color: #F5F5F5;
     border-radius: 20px;
-    margin-left: 125px;
+    margin-left: 120px;
     box-shadow: 1px 10px 12px rgba(0, 0, 0, 0.400);
     display: flex;
     flex-direction: column;
@@ -221,15 +259,40 @@ p{
     align-items: center;
 }
 
-/* aqui é auela tabela com os avisos */
+/* aqui é aquela tabela com os avisos */
 
 .avisos{
     width: 75%;
-    height: 450px;
+    height: 520px;
     background-color: #FFE3A1;
     margin-top: 20px;
     border-radius: 20px;
 }
+
+.avisoText{
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* aqui é aquela tabela de cardapio */
+.cardapio{
+    width: 75%;
+    height: 520px;
+    background-color: #FFE3A1;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foodWeekDay{
+    width: 100%;
+    height: 60px;
+}
+
+/* rodapé baby */
 
 .footerPages{
     background-image: url('../image/navbar.png');
@@ -242,7 +305,7 @@ p{
     padding: 20px;
     display: flex;
     justify-content: flex-end;
-    position: relative;
+    margin-top: 50px;
 
 }
 
