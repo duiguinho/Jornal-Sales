@@ -103,6 +103,7 @@ body{
 .imgTabelaRight{
     width: 30px;
     height: 30px;
+    margin-left: 10px;
 }
 
 .h1Welcome{
@@ -144,6 +145,11 @@ h3{
 #cardapioDataTitle{
     margin: 0 auto;
     margin-top: 20px;
+}
+hr{
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
 }
 
 
@@ -289,7 +295,7 @@ h3{
 
 .foodWeekDay{
     width: 100%;
-    height: 60px;
+    height: 90px;
 }
 
 /* rodapé baby */
@@ -315,9 +321,111 @@ h3{
 }
 
 
+@media (max-width: 415px) {
+    
+    .h1Welcome{
+        font-size: 25px;
+    }
+    .avisosTitle{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .cardapioTitle{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .pCardapioFood{
+        font-size: 14px;
+    }
+    .imgPostCapa{
+        height: 120px;
+    }
+    .imgTitle{
+        height: 50px;
+    }
+    #cardapioDataTitle{
+        font-size: 20px;
+        text-align: center ;
+    }
+    #appleImg{
+        width: 25px;
+        height: 35px;
+        margin-top: 30px;
+    }
+    .titlePost{
+        font-size: 18px;
+    }
+    .imgTabelaRight{
+        width: 20px;
+        height: 23px;
+    }
+
+    .left{
+        width: 55%;
+    }
+    .right{
+        width: 45%;
+    }
+
+/* ---------------------------------------------------------- */
+    .boxWelcome{
+        height: 150px;
+        text-align: center;
+    }
+
+/* ---------------------------------------------------------- */
+    .postsRow{
+        flex-direction: column;
+    }
+
+/* ---------------------------------------------------------- */
+    .post1{
+        width: 90%;
+        height: 310px;
+    }
+
+/* ---------------------------------------------------------- */
+    .post2{
+        width: 90%;
+        height: 330px;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .avisos{
+        width: 90%;
+        height: 475px;
+    }
+    
+    /* ---------------------------------------------------------- */
+    
+    .avisoText{
+        height: 100px;
+    }
+
+    /* ---------------------------------------------------------- */
+    
+    .cardapio{
+        width: 90%;
+        height: 500px;
+    }
+
+    /* ---------------------------------------------------------- */
+    .foodWeekDay{
+        height: 85px;
+    }
+}
+
+/* a tentativa da rafaela de deixar responsivo KKKKKKKKKKKK */
+
 /* outra parte que era para estar resposivel mas esta 50% funcionando  */
 
-@media (max-width: 991px){
+/* @media (max-width: 991px){
 
 .navbar-collapse{
     position: absolute;
@@ -335,4 +443,4 @@ h3{
     margin-top: 15px;
 }
 
-}
+} */
