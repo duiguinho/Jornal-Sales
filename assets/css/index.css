@@ -55,7 +55,7 @@ body{
 
 /* botão perfil +*/
 
-.perfil {
+#perfil {
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -64,11 +64,11 @@ body{
     background-color: var(--titulos) !important;
 }
 
-.perfil:hover{
+#perfil:hover{
     background-color: var(--titulo-hover);
 }
 
-.perfil img{
+#perfil img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -82,6 +82,72 @@ body{
     background-size: cover;
     background-position: center;
     padding: 20px;
+}
+
+
+
+.dialogFormulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(201, 201, 201);
+    border-radius: 10px;
+}
+
+input{
+    border-radius: 7px;
+    height: 50px;
+    border: none;
+    box-shadow: 1px 1px 12px rgb(102, 102, 102);
+    width: 95%;
+}
+
+#dialogResp{
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(201, 201, 201);
+    border-radius: 10px;
+    font-size: 20px;
+    color: #8a1818;
+    font-family: "IM FELL French Canon";
+    background-color: #F5F5F5;
+    margin-bottom: 10px;
+}
+
+#dialogHr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+#dialogTitleLabel{
+    font-size: 20px;
+    color: #8a1818;
+    font-family: "IM FELL French Canon";
+    margin-top: 10px;
+}
+
+#dialogTitleH3{
+    font-size: 26px;
+    margin-left: 0;
+    text-align: center;
+    color: #8a1818;
+    font-family: "IM FELL French Canon";
+}
+
+#dialogPerfil {
+    width: 700px;
+    height: 630px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 50px;
+    box-shadow: 1px 1px 20px black;
+    background-color:#F5F5F5;
+}
+
+#dialogPerfil::backdrop{
+    backdrop-filter: blur(5px);
+    background-color: rgb(0, 0, 0, 0.3);
 }
 
 .imgTitle{
