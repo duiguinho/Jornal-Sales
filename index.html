@@ -51,7 +51,11 @@
             <label id="dialogTitleLabel" for="confirmaSenha">Confirmar Senha:</label>
             <input type="password" id="confirmaSenha">
             <hr id="dialogHr">
-            <button id="dialogResp">CONFIRMAR</button>
+
+            <div class="buttonsDialog">
+                <button id="botaoClose">FECHAR</button>
+                <button id="dialogResp">CONFIRMAR</button>
+            </div>
         </div>
     </dialog>
 
@@ -198,9 +202,13 @@
    const dialog = document.querySelector("#dialogPerfil");
     const openButton = document.querySelector("#perfil");
     const botaoConfirmar = document.querySelector("#dialogResp");
+    const botaoClose = document.querySelector("#botaoClose")
 
-    dialog.close();
 
+    botaoClose.addEventListener("click", (e) =>{
+        dialog.close();
+    });
+    
     openButton.addEventListener("click", () => {
         dialog.showModal();
     });
@@ -209,6 +217,8 @@
         e.preventDefault();
         fazerLogin(); 
     });
+  
+
 
 </script>
 

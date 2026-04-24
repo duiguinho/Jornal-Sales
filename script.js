@@ -4,7 +4,8 @@ function fazerLogin() {
 
   const usuarios = [
     { 
-      id: 1, nome: "Fernanda",
+      id: 1,
+      nome: "Fernanda",
       email: "fernanda@gmail.com",
       senha: "123",
       nivel: "admin" 
